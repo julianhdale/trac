@@ -47,31 +47,6 @@
             <center>
                 Hello World
         <!--Call php and javascript code here-->
-<?php
-// Create connection
-$con=mysqli_connect("localhost","root","password");
-
-// Check connection
-if (mysqli_connect_errno())
-  {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }
-
-// Call sql function
-
-$rfiddata="SELECT * FROM tracdata WHERE ID=1;"
-
-// Execute Query
-
-if (mysqli_query($con,$rfiddata))
-    {
-    echo $rfiddata
-    }
-else
-  {
-  echo "Error creating table: " . mysqli_error($con);
-  }
-?>
 
 
 
