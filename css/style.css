@@ -1,0 +1,62 @@
+body{padding:0; margin:0; font-family:arial, helvetica, san-sarif; font-size:12px;}
+body{overflow-x:hidden; overflow-y:scroll;}
+body.theme1{background:#3577A8;}
+h2{font-size:24px; font-weight:bold; color:white; padding:0; margin:0;}
+h3{font-size:24px; color:black;}
+a:focus, input, input:focus{outline:none;}
+input[type="text"], input[type="button"], input[type="submit"], input[type="reset"], input[type="password"], select {border:solid 1px; border-radius:3px;}
+.bold{font-weight:bold;}
+.italic{font-style:italic;}
+.main-container{width:1000px; margin:0 auto;}
+.header{width:100%; height:220px; background:url("../images/header_bottom_border_yellow.png") bottom repeat-x; display:inline-block; position:relative;}
+.header .user-details{width;30%; position:absolute; top:25px; right:0; font-size:14px; color:white;}
+.header.no-border{background:#3577A8;}
+.header .product-name{float:left; width:450px; height:76px; background:url("../images/traclogo_white1.png"); margin:75px 0 0 40px;}
+.header .product-info{float:right; width:500px; position:absolute; left:50px; bottom:10px;}
+.header .product-info h2{margin:0 0 20px 0;}
+.header .product-info p{padding:0; margin:0;}
+ul.nav-tabs{float:left; width:90%; height:34px; display:inline-block; list-style:none; padding:0; margin:0;}
+ul.nav-tabs li{float:left; width:145px; height:17px; background:#6d747c; font-size:14px; font-weight:bold; color:#FFF; text-align:center; padding:5px; margin:0 7px 0 0; cursor:pointer; border-radius:3px;}
+ul.nav-tabs li.selected{background:#f3bb2a;}
+input[type="button"].signout{float:right; width:100px; height:29px; padding:5px; background:#f3bb2a; font-size:14px; font-weight:bold; color:#FFF; text-shadow:0px 1px 1px #000; filter:dropshadow(color=#000, offx=0, offy=1); border:solid 1px #f3bb2a; cursor:pointer;}
+.content{background:#FFF; border:solid 1px #f3bb2a; padding:20px 30px; clear:both; margin:20px 0 0 0; overflow:hidden; border-radius:3px;}
+
+.title-bar{overflow:hidden;}
+.title-bar h4{float:left; font-size:17px; font-weight:bold; color:#5D6770; background:url('../images/help_icon.png') left 3px no-repeat; display:inline-block; padding:0 0 0 20px; margin:15px 30px 0 0;}
+.title-bar .pagination{float:left; margin:15px 0 0 0;}
+.title-bar .pagination a{float:left; width:13px; height:13px; padding:1px 2px 2px; text-align:center; text-decoration:none; color:#000; display:block; border:solid 1px #000; margin:0 5px 0 0; border-radius:3px;}
+.title-bar .pagination a.left-arrow{background:#bec0c2; font-weight:bold; margin:0 15px 0 0;}
+.title-bar .pagination a.right-arrow{background:#bec0c2; font-weight:bold; margin:0 0 0 15px;}
+.title-bar .pagination a.selected{background:#bec0c2; font-weight:bold;}
+.title-bar .title{float:right; font-size:38px; font-weight:bold; color:#a21984; opacity:0.4; filter: alpha(opacity = 40);}
+
+.pageFooter {clear:both;}
+.pageFooter, .pageFooter a {color:#FFF; padding:0 15px;}
+.pageFooter .contactModule label{float:left; margin:0 10px 0 0;}
+.pageFooter .contactModule.gridRight {float:right; margin-top:0;}
+.pageFooter .signUp {margin:0 80px 26px 0; max-width:250px; min-width:210px;}
+.pageFooter .signUp .bodyTextBold p {padding-bottom:2px;}
+.pageFooter .signUp .contactModule p {padding-bottom:12px;}
+.pageFooter .contactModule.bottom {clear:both; margin-top:27px; text-align:right;}
+.pageFooter .bottom a {border-left:1px solid #FFF; border-right:medium none; margin-left:6px; padding:0 0 0 10px;}
+.pageFooter .bottom span a:first-child {border-left:medium none;}
+.pageFooter .contactModule .copyright {float:left;}
+.pageFooter a.facebook {background:url("../images/facebookFooter.png")}
+.pageFooter a.twitter {background:url("../images/twitterFooter.png")}
+.pageFooter a.linkedin {background:url("../images/linkedinFooter.png") no-repeat; text-indent:-1500px; width:13px; height:13px; display:block; float:left;}
+.pageFooter .centerContainer {padding:20px 0;}
+
+
+/*Styles for Home-Demo Page*/
+.graph-area{clear:both; overflow:hidden; margin:0px 0 0 0;}
+.graph-area .left{float:left; background:#0096D6; width:500px; height:400px; border:solid 1px #0096D6; border-radius:3px; border-width:1px 1px 1px 11px;}
+.graph-area .left .inner{background:#0096D6; width:500px; height:400px;}
+.graph-area .right{float:right; width:420px; height:400px; position:relative;}
+.graph-area .right .upper-boarder{float:left; background:#f47a47; width:400px; height:190px; border:solid 1px #f47a47; border-radius:3px; border-width:1px 1px 1px 11px;}
+.graph-area .right .upper-boarder .inner{background:#f47a47; width:400px; height:190px;}
+.graph-area .right .upper-boarder .inner .graph-up{background:#f47a47; width:400px; height:190px;}
+.graph-area .right .lower-boarder{float:left; background:#8DC63f; width:400px; height:190px; border:solid 1px #8DC63f; border-radius:3px; border-width:1px 1px 1px 11px; position:absolute; bottom:0;}
+.graph-area .right .lower-boarder .outer{background:#8DC63f; width:400px; height:190px; position:absolute; bottom:0;}
+.graph-area .right .lower-boarder .outer .graph{width:400px; height:190px; position:absolute; background:#8DC63f;}
+
+
